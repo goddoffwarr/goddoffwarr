@@ -9,3 +9,7 @@ $Users=[
 		"uuid"=>""
 	]
 ];
+
+echo json_encode($users, JSON_PRETTY_PRINT);
+
+?>
